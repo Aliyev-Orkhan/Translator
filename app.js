@@ -17,11 +17,11 @@ const translateText = async () => {
 
   const options = {
     method: "POST",
-    headers: {
-      "content-type": "application/x-www-form-urlencoded",
-      "X-RapidAPI-Key": "21786dc505msh17ce8ada5e5dc58p1e3379jsna6887a2aa10d",
-      "X-RapidAPI-Host": "text-translator2.p.rapidapi.com",
-    },
+   headers: {
+		'content-type': 'application/x-www-form-urlencoded',
+		'X-RapidAPI-Key': '8e12abd9admsh9c4d8257884f39dp13d968jsn0a63f4677bd4',
+		'X-RapidAPI-Host': 'text-translator2.p.rapidapi.com'
+	},
     body: new URLSearchParams({
       source_language: selectedValue,
       target_language: "en",
